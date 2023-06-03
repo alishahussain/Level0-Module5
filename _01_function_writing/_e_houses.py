@@ -9,14 +9,16 @@ if __name__ == '__main__':
     # TODO)
     #   1) Move the turtle to the left side of the window near the bottom.
     #   2) Draw ONE flat-topped house with height=100 and green grass after it.
-   lol.right(90)
-   lol.move(100)
-   lol.right(45)
-   lol.move(100)
-   lol.right(45)
-   lol.mmove(100)
-   lol.right(45)
-   lol.
+   house = for i in range(1):
+      lol.right(90)
+      lol.move(100)
+      lol.right(45)
+      lol.move(100)
+      lol.right(45)
+      lol.move(100)
+      lol.right(45)
+      lol.pencolor(green)
+      lol.fill(green)
     #   3) Put the code that drew the house into a function called draw_house
     #      HINT: Only the code that draws one house should go in this function.
     #   4) Using the function you just created, draw 10 houses.

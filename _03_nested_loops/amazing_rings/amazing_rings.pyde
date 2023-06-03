@@ -17,7 +17,7 @@ def draw():
         
     # When the rings reach the right side of the sketch, reverse the direction so
     # they move.
-    # Hint: speed = -speed */
+    # Hint: speed = -speed *
 
          
     # When the rings reach the left side of the sketch, reverse the direction again
