@@ -26,10 +26,10 @@ if __name__ == '__main__':
     ask = simpledialog.askstring(title=None, prompt='what shape would you like to draw?')
     if ask =='square':
         length= simpledialog.askinteger(title=None, prompt='what length do you want your square to be?')
-        draw_square(length1,obi)
+        draw_square(length,obi)
     if ask =='triangle':
         length= simpledialog.askinteger(title=None, prompt='what length do you want your triangle to be?')
-        draw_triangle(length2,obi)
+        draw_triangle(length,obi)
     if ask =='circle':
         rad= simpledialog.askinteger(title=None, prompt='what radius do you want your circle to be?')
         draw_triangle(rad,obi)
